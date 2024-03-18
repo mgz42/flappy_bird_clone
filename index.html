@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="titreetcommande">Press Space to start the game</div>
+
+    <div class="container d-flex justify-content-center">
+    <div id="parent">
+        <canvas id="flappy" width="1200" height="900"></canvas>
+    </div>
+
+    <div style="display:none;">
+        <img id="source" src="pipe.webp" width="131" height="388" />
+        <img id="source_two" src="pipe2.webp" width="131" height="388">
+        <img id="bird1" src="bird1.webp" height="40" width="40">
+        <img id="bird2" src="bird2.webp" height="40" width="40">
+    </div>
+    <div id="score" style="text-align: center; padding-top: 3rem;"></div>
+    </div>
+
+    <script src="flappy.js"></script>
+</body>
+</html>

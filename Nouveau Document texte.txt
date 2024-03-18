@@ -1,0 +1,9 @@
+si bird x >= x de box a et >= x de box a + width
+
+ET
+
+si bird y >= y de box a 
+
+Alors 
+
+END
