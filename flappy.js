@@ -43,7 +43,7 @@ const resetAll = () => {
 
     document.querySelector(".titreetcommande").innerHTML = "Score: " + points;
     document.querySelector(".titreetcommande").style.display = "flex";
-    points = 0; score.innerHTML = points
+    points = 0; score.innerHTML = "Score: " + String(points)
 
 }
 
@@ -81,7 +81,7 @@ const draw = () => {
             resetAll();
         }
 
-        if ( 300 > pipe.x + 131 && pipe.point === true ) { pipe.point = false; points += 1; score.innerHTML = points }
+        if ( 300 > pipe.x + 131 && pipe.point === true ) { pipe.point = false; points += 1; score.innerHTML = "Score: " + String(points) }
 
         if(pipe.x < (1300 - pipe.separator_from_next) && pipe.current === true){
             pipe.current = false;
