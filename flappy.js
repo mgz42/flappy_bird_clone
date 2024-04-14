@@ -50,8 +50,8 @@ const resetAll = () => {
 const draw = () => {
     ctx.clearRect(0, 0, 1200, 900);
     let gradient = ctx.createLinearGradient(600, 0, 600, 900);
-    gradient.addColorStop(0, "lightblue");
-    gradient.addColorStop(1, "#f5f4f0");
+    gradient.addColorStop(0, "#a7d1de");
+    gradient.addColorStop(1, "#fbf2e0");
     ctx.fillStyle = gradient;
     ctx.fillRect(0, 0, 1200, 900);
 
